@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body{
+    background-color: bisque;
+    font-family: lato ,sans-serif
+}
+
+.header{
+    background-color: rgb(251, 255, 0);
+    height: 65px;
+    text-align: center;
+}
+
+.banner{
+    background-color-image:url(./arquivo/bolo-de-milho.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px
+}
+
+.footer{
+    background-color: yellow ;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+   color: yellow;
+   margin-bottom: 20px;
+}
+
+li{
+    list-style-position: inside;
+    line-height: 40px;
+}
+
+ul{
+    margin-bottom: 50px;
+}
+
+.botao {
+    text-overflow: none;
+    background-color: yellow;
+    color: black;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 35px;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+.titulo-receita{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.link-footer{
+    font-weight: 800;
+    text-decoration: none;
+    color: aliceblue;
+}
